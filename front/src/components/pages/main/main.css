@@ -1,0 +1,67 @@
+.banner{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(./estacionamiento.png);
+    height: 60vh;
+    margin-bottom: 10px;
+}
+@media (min-width: 480px){
+    .banner__contenido{
+        width: 100%;
+        height: auto;;
+        margin:0px auto;
+        padding-top: 60vh;
+        padding-left: 3vw;
+    }
+    .banner{
+        height: 80vh;
+    }
+}
+@media (max-width: 480px){
+    .banner__contenido{
+        width: 100%;
+        height: auto;;
+        margin: 0px auto;
+        padding-top: 20vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        text-align: center;
+    }
+}
+.banner__contenido p, .banner__contenido h4{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.banner__contenido p{
+    font-weight: normal;
+}
+.banner__contenido h4{
+    font-weight: bold;
+}
+
+.estacionamientos{
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+    box-shadow: 9px 9px 9px -2px rgba(143,143,143,0.56);
+    -webkit-box-shadow: 9px 9px 9px -2px rgba(143,143,143,0.56);
+    -moz-box-shadow: 9px 9px 9px -2px rgba(143,143,143,0.56);
+}
+
+@media (min-width: 768px){
+    .estacionamientos{
+        width: 60%;
+        margin: 0 auto;
+        padding: 20px;
+        margin-bottom: 10px;
+        background-color: rgb(243, 243, 243);
+        border-radius: 10px;
+        margin-bottom: 25px;
+    }
+}
+.estacionamientos h3{
+    text-align: center;
+}

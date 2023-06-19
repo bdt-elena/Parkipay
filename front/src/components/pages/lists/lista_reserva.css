@@ -1,0 +1,93 @@
+.reservacion{
+
+ display: block;
+ padding: 20px;
+}
+@media (min-width: 768px){
+    .reservacion{
+        margin: 20px auto;;
+        box-shadow: 9px 9px 9px -2px rgba(143,143,143,0.56);
+        -webkit-box-shadow: 9px 9px 9px -2px rgba(143,143,143,0.56);
+        -moz-box-shadow: 9px 9px 9px -2px rgba(143,143,143,0.56);
+        max-width: 80%;
+        background-color: rgb(243, 243, 243);
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+.reservacion h2{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.grid__reserva{
+    display: block;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+ 
+}
+.grid__reserva:last-of-type{
+    border: none;
+}
+@media (min-width: 768px){
+    .grid__reserva{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        padding: 20px;
+        border-bottom: 1px solid gray;
+     
+    }
+}
+.grid_info{
+    display: grid;
+    grid-template-columns: 70% 30%;    align-items: center;
+
+    grid-column: 1/4;
+}
+@media (min-width: 768px){
+    .grid_info{
+        display: grid;
+        grid-template-columns: 70% 30%;    align-items: center;
+        padding-left: 20px;
+    }
+}
+.qr{
+    width: 100%;
+}
+.wr_alin{
+    align-items: flex-start;
+}
+
+p{
+    color: rgb(31,31,31);
+    margin-bottom: 0;
+    font-weight: bold;
+}
+span{
+    font-weight: normal;
+}
+.inline{
+    display: flex;
+    align-items: center;
+}
+
+.buuton{
+    float: right;
+    width: fit-content;
+    background-color: rgb(201, 36, 36);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: rgb(236, 242, 247);
+    font-family: Herculanum, "Eras Light ITC", sans-serif;
+
+   
+}
+
+.buuton:hover{
+    background-color: rgb(168, 30, 30);
+}

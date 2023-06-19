@@ -1,0 +1,93 @@
+.box-boton{
+    background-color: rgb(201, 36, 36);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: rgb(236, 242, 247);
+    font-family: Herculanum, "Eras Light ITC", sans-serif;
+}
+
+.box-boton:hover{
+    background-color: rgb(168, 30, 30);
+}
+
+/*
+
+.box-section{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.box-right{
+    width: 60%;
+}
+.h3-style-r{
+    color: rgb(031, 031, 031);
+    font-family: Herculanum, "Eras Demi ITC", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(228, 228, 228);
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 60%;
+}
+.box-form{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 30px;
+    padding-top: 10px;
+    background-color: rgb(243, 243, 243);
+}
+
+.box-left{
+    width: 40%;
+    background-color: rgb(216, 156, 018);
+
+}
+.center-box-img{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url('../login-page/image.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 60%;
+}
+input[type=email] {
+    width: 90%;
+    border: 1px solid #555;
+    padding: 3px;
+    border-radius: 3px;
+}
+input[type=password] {
+    width: 90%;
+    border: 1px solid #555;
+    padding: 3px;
+    border-radius: 3px;
+}
+input[type=text] {
+    width: 90%;
+    border: 1px solid #555;
+    padding: 3px;
+    border-radius: 3px;
+}
+input[type=tel] {
+    width: 90%;
+    border: 1px solid #555;
+    padding: 3px;
+    border-radius: 3px;
+}
+label{
+    padding: 5px;
+}
+
+
+*/
+
+

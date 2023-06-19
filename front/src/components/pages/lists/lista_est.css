@@ -1,0 +1,97 @@
+.estacionamientos__hijo p{
+    padding: 0;
+    margin: 0;
+    color: rgb(031, 031, 031);;
+}
+.estacionamientos__hijo{
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+}
+.img{
+    margin-bottom: 10px;
+}
+@media (min-width: 480px){
+    .estacionamientos__hijo{
+        background-color: rgb(228, 228, 228);
+        padding: 10px;
+        align-items: center;
+        display: flex;
+    }
+    .img{
+        margin-bottom: 0;
+    }
+}
+.estacionamientos__descripción{
+    padding: 0 10px;
+    text-align: center;
+    width: 100%;
+}
+.estacionamientos__descripción h4{
+    color: rgb(031, 031, 031);
+}
+.box-boton{
+    margin-top: 20px;
+    max-width: min-content;
+    margin-right: 20px;
+}
+.box-boton:hover{
+    background-color: rgb(168, 30, 30);
+}
+iframe
+{
+    display: none;
+}
+.estacionamientos__descripción p{
+    font-weight: normal;
+}
+
+.administrar{
+    margin: 20px auto;
+    width: 70%;
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    border-radius: 10px;
+}
+.h3{
+    border-bottom: 1px solid gray;
+}
+.no{
+    text-decoration: none;
+}
+.box-establecimiento-hijo{
+    display: block;
+}
+@media (min-width: 768px){
+   .box-establecimiento-hijo{
+       display: flex;
+   }
+}
+
+/*
+
+
+.list-image{
+    border-radius: 5px;
+}
+
+.box-establecimiento-details{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(031, 031, 031);
+    color: white !important;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+
+
+img{
+    size: auto;
+}
+.text-decorationt{
+    text-decoration: none;
+    color: transparent;
+}
+
+*/
